@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IXN1pHaB8H3GeEOEHIzqmgktp8XbYVZjA3AXz06wKdU=",
+  "Source": "TanksApi",
+  "BasePath": "_content/TanksApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
