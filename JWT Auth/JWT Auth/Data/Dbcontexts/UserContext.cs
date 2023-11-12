@@ -33,10 +33,10 @@ namespace JWT_Auth.Data.Dbcontexts
                 .Property(x => x.Id)
                 .ValueGeneratedOnAdd();
             userBuilder
-                .Property(x => x.Name)
+                .Property(x => x.Email)
                 .IsRequired();
             userBuilder
-                .Property(x => x.Email)
+                .Property(x => x.Username)
                 .IsRequired();
             userBuilder
                 .Property(x => x.Password)
