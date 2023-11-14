@@ -1,4 +1,5 @@
 using JWT_Auth.Data.Dbcontext;
+using JWT_Auth.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
@@ -33,6 +34,8 @@ builder.Services
     });
 
 builder.Services.AddDbContext<UsersContext>();
+
+builder.Services.AddScoped<TokenService, TokenService>();
 
 builder.Services
     .AddIdentityCore<IdentityUser>(options =>
